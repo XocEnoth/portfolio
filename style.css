@@ -1,0 +1,41 @@
+body {
+    background-color: #0c0919;
+}
+
+.button-home {
+    border-width: 2px;
+    border-color: rgb(1, 170, 243);
+    width: 120px;
+    color: rgb(1, 170, 243);
+    margin-bottom: 10px;
+}
+
+.button-home:hover {
+    background-color: rgb(1, 170, 243);
+    color: white;
+    border-color: rgb(1, 170, 243);
+}
+
+.button-home2 {
+    background-color: rgb(1, 170, 243);
+    color: #0c0919;
+    width: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    border-color: rgb(1, 170, 243);
+}
+
+.button-home2:hover {
+    background-color: transparent;
+    border-color: rgb(1, 170, 243);
+}
+
+.col-home a {
+    text-decoration: none;
+}
+
+.col-home a svg {
+    height: 25px;
+    margin-right: 20px;
+}
