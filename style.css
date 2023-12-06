@@ -40,6 +40,41 @@ body {
     margin-right: 20px;
 }
 
+.contact div input {
+    border: 2px solid rgb(1, 170, 243);
+    background-color: transparent;
+    color: white;
+}
+
+.textarea textarea {
+    color: white;
+    height: 250px;
+}
+
+.textarea textarea::placeholder,
+.textarea textarea:focus {
+    color: white;
+}
+
+.contact div input::placeholder,
+.contact div input:focus {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.color-cstm {
+    color: #01aaf3;
+}
+
+.border-cstm {
+    border: 2px solid rgb(1, 170, 243);
+    border-radius: 5px;
+}
+
+.circle-cstm {
+    border-radius: 50%;
+}
+
 .display-none {
     display: none;
 }
@@ -49,6 +84,15 @@ body {
         display: inline;
     }
     .lg-display-none {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .ctc-display {
+        display: inline;
+    }
+    .ctc-display-none {
         display: none;
     }
 }
