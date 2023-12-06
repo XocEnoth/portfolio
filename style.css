@@ -39,3 +39,16 @@ body {
     height: 25px;
     margin-right: 20px;
 }
+
+.display-none {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .lg-display-gif {
+        display: inline;
+    }
+    .lg-display-none {
+        display: none;
+    }
+}
